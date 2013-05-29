@@ -17,7 +17,7 @@
  *
  */
 function createDispatcher(prefix, notFoundFun, context) {
-  if ( ! prefix || ! is(prefix, 'string')) {
+  if ( ! prefix || typeof(prefix) != 'string')) {
       return false;
   }
 
